@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  root: '.', // 👈 gjør at index.html i root brukes
+  root: '.', //index.html
   build: {
     outDir: 'dist',
     rollupOptions: {
